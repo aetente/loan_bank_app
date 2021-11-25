@@ -1,0 +1,142 @@
+.user-functional-form {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 0 3em 0;
+  padding: 0;
+  flex-direction: row;
+}
+
+.bank-functional-form {
+  margin: 10px 10px 16px 0;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: end;
+}
+
+.user-functional-form > .user-hold-label {
+  width: 48%;
+  padding: 0 0.7%;
+}
+
+.user-functional-form > .user-hold-button {
+  width: 98%;
+  padding: 0 0.8%;
+}
+.user-submit-login {
+  width: 100%;
+}
+
+.user-functional-form > .bank-hold-label {
+  width: 24%;
+  padding: 0 0%;
+}
+
+.user-functional-form > .bank-hold-button {
+  width: 98%;
+  padding: 0 0.8%;
+}
+.bank-submit {
+  width: 100%;
+}
+
+.loan-functional-form > .loan-hold-label {
+  width: 98%;
+  padding: 0 1%;
+}
+
+.user-main {
+  padding: 16px;
+  width: 960px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.user-forms-holder {
+  width: 100%;
+}
+
+.user-in-form {
+  width: 100%;
+}
+
+.bank-in-form {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  min-width: 733px;
+}
+
+.add-bank {
+  width: 100%;
+  margin: 10px;
+  padding: 0;
+}
+
+.hold-controls {
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.control-button {
+  display: inline-flex;
+  justify-content: center;
+  border: 0px none;
+  margin: 1.6rem 0px 0px;
+  cursor: pointer;
+  color: white;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  padding-block: 0.7rem;
+  padding: 5px;
+  margin: 5px;
+}
+
+.back-button {
+  background-color: #ff5722;
+}
+
+.hold-companies {
+  flex-direction: column;
+  margin: 10px;
+}
+
+@media screen and (max-width: 960px) {
+  .user-main {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 662px) {
+  .user-functional-form > .user-hold-label {
+    width: 98%;
+    padding: 0 0.7%;
+  }
+
+  .bank-functional-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: end;
+  }
+
+  .bank-in-form {
+    min-width: 0px;
+  }
+}
+
+@media screen and (max-width: 734px) {
+  .user-functional-form > .bank-hold-label {
+    width: 98%;
+    padding: 0 0.7%;
+  }
+
+  .bank-in-form {
+    min-width: 0px;
+  }
+}
